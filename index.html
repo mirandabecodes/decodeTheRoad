@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;600;700&family=Work+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body>
+<div class="bg-img"></div>
+
+
+  <div class="banner">
+        ⚠️ For safety: Do not use while operating vehicle
+    </div>
+
+    
+    <div class="container">
+        <h1>Decode the Road</h1>
+        <p class="subtitle">Upload or take a photo of a road sign</p>
+       <!--  <img src="https://cdn.pixabay.com/photo/2014/03/24/17/20/road-295449_1280.png" alt="road" class="roadimg">
+        <img src="https://cdn.pixabay.com/photo/2014/05/27/10/25/stop-355294_1280.png" alt="stop sign" class="stopsign"> -->
+
+
+        <div class="card">
+            <label for="fileInput" class="upload-area">
+                <div class="camera-circle">
+                    <img src="images/camera-icon.svg" width="40px">
+                </div>
+                <p>Take a Photo</p>
+            </label>
+
+            <div class="divider">or</div>
+            <div class="input-wrapper">
+                <button class="upload-btn"> 
+                  <label for="uploader"><img src="images/upload-icon.svg" width="18" style="vertical-align:middle;margin-right:15px;">Upload Image</label>
+                  <input type="file" id="uploader" accept="image/jpeg, image/png, image/jpg" />
+
+              </button>  
+
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
